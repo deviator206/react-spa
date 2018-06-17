@@ -1,0 +1,75 @@
+/** @import url(https://fonts.googleapis.com/css?family=Roboto:400);*/
+
+body {
+    background-color:#fff;
+    -webkit-font-smoothing: antialiased;
+     /** font: normal 14px Roboto,arial,sans-serif;*/
+  }
+  
+  .container {
+      padding: 25px;
+      position: fixed;
+  }
+  
+  .form-login {
+      background-color: #EDEDED;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 15px;
+      border-color:#d2d2d2;
+      border-width: 5px;
+      box-shadow:0 1px 0 #cfcfcf;
+  }
+  
+  h4 { 
+   border:0 solid #fff; 
+   border-bottom-width:1px;
+   padding-bottom:10px;
+   text-align: center;
+  }
+  
+  .form-control {
+      border-radius: 10px;
+  }
+  
+  .wrapper {
+      text-align: center;
+  }
+
+  .leftNav {
+    cursor: pointer;
+    min-height: 3rem;
+    border: 1px red solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .leftNavSelected {
+    background-color: lightcyan;
+  }
+
+
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid blue;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
